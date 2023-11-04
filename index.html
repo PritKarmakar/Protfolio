@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priti - Protfolio</title>
+    <a></a><link rel="preconnect" href="https://fonts.googleapis.com">
+    <a></a><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <a></a><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(51, 31, 57);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items:center ;
+            height: 90px;
+            background-color: rgb(36, 1, 61);
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr{
+            border: 0;
+            background: rgba(219, 127, 222, 0.942);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(225, 241, 44);
+        }
+
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+        .leftSection{
+            font-size: 2rem;
+            margin: 40px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background-color:rgb(33, 4, 56);
+            color: rgb(247, 244, 244);
+            font-size: 10px;
+            font-family: 'Poppins', sans-serif;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+        .rightSection{
+           width: 80%px;
+           height: 0.5;
+        }
+
+        .firstSection > div{
+           width: 30%;
+        }
+
+        .purple{
+            color: rgb(112, 45, 137);
+        }
+
+        #element{
+            color: rgb(112, 45, 137);
+        }
+
+        .secondSection{
+            max-width: 40vw;
+            margin: 10rem;
+            margin-top: 1rem;
+            height: 30vh;
+            font-size: 10px;
+        }
+
+        .secondSection h1{
+            font-size: 1.10px;
+            font-size: 1.5rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+        .text-gray{
+            color: gray;
+            margin: 1px;
+            font-size: 1rem;
+        }
+
+        .image-top{
+            width: 49px;
+            position: relative;
+            top: -48px;
+            left: -20px;
+            
+        }
+
+        .vertical-title{
+            position: relative;
+            top: 48px;
+            width: 160px;
+        }
+
+        .vertical-desc{
+            color: rgb(134, 73, 156);
+            width: 150px;
+            font-size: 9px;
+            position: relative;
+            top:50px;
+        }
+
+        footer{
+            background-color:rgb(34, 21, 45);
+        }
+
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-between;
+        }
+
+        .footer h3{
+            font-size: 1.10px;
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+        footer ul{
+            list-style: none;
+        }
+
+        .footer > div{
+            width: 223px;
+        }
+
+       footer .footer-rights{
+        color: gray;
+        padding: 12px 0;
+        text-align: center;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Priti's Protfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class ="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Priti</span>
+                    
+                <div>and I am a WebDeveloper,</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Downloads Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="wb.png" alt="">
+            </div>
+        </section>
+<hr>
+        <section class="secondSection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>Work Exprience___</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="coding.png" alt="">
+                    <div class="vertical-title">
+                    HTML Developer (2010-2012)    
+                    </div>
+                    <div class="vertical-desc">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam illum temporibus esse minus, eos dolores, atque itaque in quae maiores tempore odit voluptate, possimus quis.
+                         Maxime enim labore fugiat obcaecati!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="devGirl.png" alt="">
+                    <div class="vertical-title">
+                    Node JS Developer (2012-2017)    
+                    </div>
+                    <div class="vertical-desc">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam illum temporibus esse minus, eos dolores, atque itaque in quae maiores tempore odit voluptate, possimus quis.
+                         Maxime enim labore fugiat obcaecati!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="devBoy.png" alt="">
+                    <div class="vertical-title">
+                    Game Developer (2017-2020)    
+                    </div>
+                    <div class="vertical-desc">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam illum temporibus esse minus, eos dolores, atque itaque in quae maiores tempore odit voluptate, possimus quis.
+                         Maxime enim labore fugiat obcaecati!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="devGirl.png" alt="">
+                    <div class="vertical-title">
+                    Full-Stack-WebDeveloper (2020-2023)    
+                    </div>
+                    <div class="vertical-desc">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aliquam illum temporibus esse minus, eos dolores, atque itaque in quae maiores tempore odit voluptate, possimus quis.
+                         Maxime enim labore fugiat obcaecati!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Priti's Developer Project</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Feedback</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="third">
+                <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Feedback</li>
+                <li>Services</li>
+                <li>Contact</li>
+                </ul>
+            </div>
+            <div class="fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Feedback</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;www.pritsprotfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Graphics Designer,', '&amp; Game Developer.'],
+        typeSpeed: 50,
+        });
+  </script>
+</body>
+</html>
